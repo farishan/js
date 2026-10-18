@@ -1,7 +1,10 @@
 /* Small CDN loader with progressive UI and init callbacks */
 window.addEventListener('DOMContentLoaded', () => {
   const scripts = [
-    'https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4'
+    'https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4',
+    'https://unpkg.com/react@18/umd/react.production.min.js',
+    'https://unpkg.com/react-dom@18/umd/react-dom.production.min.js',
+    'https://rawcdn.githack.com/nextapps-de/winbox/0.2.82/dist/winbox.bundle.min.js',
   ]
   
   // Configuration
