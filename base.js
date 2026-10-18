@@ -199,4 +199,4 @@ window.addEventListener('DOMContentLoaded', () => {
   
   // Keep original dark classes (Tailwind enhances them once loaded)
   document.body.classList.add('dark:bg-black', 'dark:text-white')
-}
+})
